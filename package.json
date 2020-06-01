@@ -1,0 +1,65 @@
+{
+  "name": "pwa-chat",
+  "private": true,
+  "description": "chapapp",
+  "version": "0.1.0",
+  "author": "Toshiki Kamei",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.4",
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.2",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-link-ws": "^1.0.20",
+    "apollo-utilities": "^1.3.4",
+    "babel-plugin-styled-components": "^1.10.7",
+    "firebase": "^7.14.0",
+    "gatsby": "^2.20.12",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.0",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "devDependencies": {
+    "babel-jest": "^25.3.0",
+    "babel-preset-gatsby": "^0.3.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.3.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "jest",
+    "init-hasura": "open \"https://heroku.com/deploy?template=https://github.com/hasura/graphql-engine-heroku\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zett-8/great-gatsby"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

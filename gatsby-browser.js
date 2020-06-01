@@ -1,0 +1,12 @@
+/**
+ * Implement Gatsby's Browser APIs in this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/browser-apis/
+ */
+
+// You can delete this file if you're not using it
+import GatsbyWrapper from './gatsby-wrapper'
+export const wrapRootElement = GatsbyWrapper
+
+// update pwa when sw found update
+export const onServiceWorkerUpdateFound = () => window.location.reload(true)
